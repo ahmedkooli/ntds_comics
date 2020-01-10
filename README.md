@@ -43,4 +43,4 @@ Folder containing all the saved data.
   - `CSV`: made from the adjacency matrices to match the Gephi inputs. The name format is the same as the adjacency matrices, replacing adj with edge.
 
 ## Report
-- `team_28_ntds_2019.pdf`: final report
+- `team 28 REPORT.pdf`: final report
