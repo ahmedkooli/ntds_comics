@@ -26,6 +26,7 @@ All the used notebooks for the data gathering and analysis.
 - `relatives_analysis.ipynb`: generating the adjacency matrix based on the relatives
 - `affiliation_analysis.ipynb`: generating the adjacency matrix based on the affiliations
 - `comics_analysis.ipynb`: generating the adjacency matrix based on the comics appearances
+- `adjacency_processing.ipynb`: plotting the degree distributions of the adjacency matrices and generating the corresponding CSV files for the graph visualisation (Gephi software)
 
 ## Data
 Folder containing all the saved data.
@@ -36,9 +37,10 @@ Folder containing all the saved data.
 - `bad_dc.txt`: DC bad characters and their attributes
 - `characters_dc.txt`: DC characters and their attributes (good + bad)
 - `comics_dc.txt`: DC comics and their attributes
-- `clean_dc.txt`: Cleaned DC dataframe (characters + comics)
-
-SPECIFIER CELLES QUI ONT PAS ETE MISES SUR GIT?????
+- `clean_dc.txt`: cleaned DC dataframe (characters + comics)
+- https://drive.google.com/drive/folders/1fZhjABSlYjy7Pkc2HMnRkctInPVhlnGA?usp=sharing: rest of the data that was too large for git
+  - `Adjacency matrices`: adjacency matrices, the file names are adj_attribute_date. Attribute: aff means affiliations, relat means relatives, comics means comic books. Date: 50 means until 1950, 90 means until 1990, no date means all the dataset.
+  - `CSV`: made from the adjacency matrices to match the Gephi inputs. The name format is the same as the adjacency matrices, replacing adj with edge.
 
 ## Report
 - `team_28_ntds_2019.pdf`: final report
